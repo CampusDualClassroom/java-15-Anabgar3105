@@ -38,7 +38,7 @@ public abstract class Merchandise {
 		return builder.toString();
 	}
 
-	public abstract Object getSpecificData();
+	public abstract String getSpecificData();
 
 	public String getName() {
 		return name;
